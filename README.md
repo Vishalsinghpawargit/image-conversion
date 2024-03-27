@@ -2,19 +2,6 @@
 
 ## HOW TO USE 
 
-
-*first you need to modify your composer json file of root directory*
-
-```json
-"repositories":[
-        {
-            "type": "git",
-            "url": "git@gitlab.com:tantra-gyan/image-convert.git"
-        }
-        
-    ]
-```
-
 *add this line in the composer json file*
 
 **composer require tantra-gyan/image-convert:v1.0.0 -w**
