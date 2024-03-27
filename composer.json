@@ -1,0 +1,21 @@
+{
+    "name": "tantra-gyan/image-convert",
+    "description": "this package can convert you image into webp and desired resolution",
+    "type": "library",
+    "require": {
+        "intervention/image": "^2.5",
+        "league/flysystem-aws-s3-v3": "~1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vishal Pawar",
+            "email": "vishal.pawarTG@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TantraGyan\\ImageConvert\\": "src/"
+        }
+    }
+}
