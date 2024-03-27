@@ -4,14 +4,14 @@
 
 *add this line in the composer json file*
 
-**composer require tantra-gyan/image-convert:v1.0.0 -w**
+**composer require vishal-pawar/image-convert:v1.0.0 -w**
 
 *run this command to install the package*
 
 ## Now, go through these steps for converting image into webp and desired resolution using our library :
 
 *firstly you need to use the helper function on the top of the file*
-**use TantraGyan\ImageConvert\helper\ImageHelper;**
+**use VishalPawar\ImageConvert\helper\ImageHelper;**
 
 ## Now let's see the available functions
 - saveImage() 
@@ -29,7 +29,7 @@
 *Here is an example code snippet*
 ```php
 
-use TantraGyan\ImageConvert\helper\ImageHelper;
+use VishalPawar\ImageConvert\helper\ImageHelper;
 
 Route::post('image-upload' , function(Request $request){
     return ImageHelper::saveImage("uploads/post" , $request->image);
@@ -50,7 +50,7 @@ Route::post('image-upload' , function(Request $request){
 *Here is an example code snippet*
 ```php
 
-use TantraGyan\ImageConvert\helper\ImageHelper;
+use VishalPawar\ImageConvert\helper\ImageHelper;
 
 Route::post('image-upload' , function(Request $request){
     return ImageHelper::resizeSaveImage("uploads/post" , $request->image , 320 , 320);
@@ -71,7 +71,7 @@ Route::post('image-upload' , function(Request $request){
 *Here is an example code snippet*
 ```php
 
-use TantraGyan\ImageConvert\helper\ImageHelper;
+use VishalPawar\ImageConvert\helper\ImageHelper;
 
 Route::post('image-upload' , function(Request $request){
     return ImageHelper::saveWebpImage("uploads/post" , $request->image);
@@ -94,7 +94,7 @@ Route::post('image-upload' , function(Request $request){
 *Here is an example code snippet*
 ```php
 
-use TantraGyan\ImageConvert\helper\ImageHelper;
+use VishalPawar\ImageConvert\helper\ImageHelper;
 
 Route::post('image-upload' , function(Request $request){
     return ImageHelper::resizeSaveWebpImage("uploads/post" , $request->image , 320 , 320);
