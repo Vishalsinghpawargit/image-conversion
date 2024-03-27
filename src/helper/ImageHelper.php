@@ -1,5 +1,5 @@
 <?php
-namespace TantraGyan\ImageConvert\helper;
+namespace VishalPawar\ImageConvert\helper;
 
 use Illuminate\Support\Facades\Storage;
 use Intervention\Image\ImageManagerStatic as Images;

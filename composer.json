@@ -1,5 +1,5 @@
 {
-    "name": "tantra-gyan/image-convert",
+    "name": "vishal-pawar/image-convert",
     "description": "this package can convert you image into webp and desired resolution",
     "type": "library",
     "require": {
@@ -15,7 +15,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "TantraGyan\\ImageConvert\\": "src/"
+            "VishalPawar\\ImageConvert\\": "src/"
         }
     }
 }

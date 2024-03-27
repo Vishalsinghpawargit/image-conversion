@@ -1,6 +1,6 @@
 <?php
 
-namespace TantraGyan\ImageConvert;
+namespace VishalPawar\ImageConvert;
 
 use Illuminate\Support\ServiceProvider;
 
