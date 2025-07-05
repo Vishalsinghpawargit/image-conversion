@@ -232,7 +232,7 @@ If you discover any issues, please create an issue on the [GitHub repository](ht
 
 ## 📧 Support
 
-For support, email [your-email@example.com](mailto:your-email@example.com) or create an issue on GitHub.
+For support, email [vishalpratapsinghpawar7@gmail.com](mailto:vishalpratapsinghpawar7@gmail.com) or create an issue on GitHub.
 
 ---
 
